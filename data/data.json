@@ -1,0 +1,50 @@
+{
+    "basic_info": {
+        "name": "Monika",
+        "surname": "Osiak",
+        "telephone": "123456789",
+        "email": "monika.osiak@email.com"
+    },
+    "education": [
+        {
+            "place": "I LO im. B. Prusa w Siedlcach",
+            "date_start": "2014",
+            "date_end": "2017",
+            "additional_info": "profil matematyczno-fizyczny"
+        },
+        {
+            "place": "Politechnika Warszawska",
+            "date_start": "2017",
+            "date_end": "2021",
+            "additional_info": "Informatyka Stosowana, specjalizacja: Inżynieria Oprogramowania"
+        }
+    ],
+    "experience": [
+        {
+            "place": "Samsung R&D Poland",
+            "date_start": "2019",
+            "date_end": "",
+            "additional_info": "Bixby Research Team"
+        }
+    ],
+    "skills": [
+        "Python 3.x",
+        "Flask",
+        "Django 2.x",
+        "HTML",
+        "CSS",
+        "creative writing"
+    ],
+    "languages": {
+        "Polish": "native",
+        "English": "B2",
+        "Italian": "A2",
+        "French": "A1"
+    },
+    "hobbies": [
+        "Italian language and culture",
+        "Formula 1",
+        "knitting",
+        "zumba"
+    ]
+}
