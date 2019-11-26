@@ -2,6 +2,7 @@
     "basic_info": {
         "name": "Monika",
         "surname": "Osiak",
+        "date_of_birth": "08-05-1998",
         "telephone": "123456789",
         "email": "monika.osiak@email.com"
     },
