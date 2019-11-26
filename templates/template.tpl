@@ -2,14 +2,15 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600,800&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="container" id="header">
+        <header>
             <h1>{{basic_info.name}} {{basic_info.surname}}</h1>
             <p>ur. {{basic_info.date_of_birth}}</p>
-            <p>{{basic_info.telephone}} -- {{basic_info.email}}</p>
-        </div>
+            <p><b>Telefon: </b>{{basic_info.telephone}}</p>
+            <p><b>E-mail: </b>{{basic_info.email}}</p>
+        </header>
 
         <div class="container" id="education">
             <h2>Wykształcenie</h2>
@@ -35,20 +36,20 @@
 
         <div class="container" id="skills">
             <h2>Umiejętności</h2>
-            <ul>
+            <p class="item">
                 {% for item in skills %}
-                <li>{{item}}</li>
+                {{item}},
                 {% endfor %}
-            </ul>
+            </p>
         </div>
         
         <div class="container" id="languages">
             <h2>Języki</h2>
-            <ul>
+            <p class="item">
                 {% for item in languages %}
-                <li>{{item}}</li>
+                {{item}},
                 {% endfor %}
-            </ul>
+            </p>
         </div>
 
         <div class="container" id="klauzula">
