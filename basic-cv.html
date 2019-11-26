@@ -1,6 +1,8 @@
 <html>
     <head>
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,800&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="container" id="header">
