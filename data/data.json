@@ -17,7 +17,7 @@
             "place": "Politechnika Warszawska",
             "date_start": "2017",
             "date_end": "2021",
-            "additional_info": "Informatyka Stosowana, specjalizacja: Inżynieria Oprogramowania"
+            "additional_info": "Informatyka Stosowana, specjalizacja: Inżynieria Danych i Multimedia"
         }
     ],
     "experience": [
@@ -26,6 +26,12 @@
             "date_start": "2019",
             "date_end": "",
             "additional_info": "Bixby Research Team"
+        },
+        {
+            "place": "Goldman Sachs",
+            "date_start": "2020",
+            "date_end": "",
+            "additional_info": "Summer Analyst Internship"
         }
     ],
     "skills": [
@@ -34,18 +40,18 @@
         "Django 2.x",
         "HTML",
         "CSS",
-        "creative writing"
+        "kreatywne pisanie"
     ],
     "languages": {
-        "Polish": "native",
-        "English": "B2",
-        "Italian": "A2",
-        "French": "A1"
+        "polski": "ojczysty",
+        "angielski": "B2",
+        "włoski": "A2",
+        "francuski": "A1"
     },
     "hobbies": [
-        "Italian language and culture",
+        "język i kultura Włoch",
         "Formula 1",
-        "knitting",
+        "robienie na drutach",
         "zumba"
     ]
 }

@@ -1,23 +1,25 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/styles2.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600,800&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <h1>{{basic_info.name}} {{basic_info.surname}}</h1>
-            <p><b>Data urodzenia: </b>{{basic_info.date_of_birth}}</p>
-            <p><b>Telefon: </b>{{basic_info.telephone}}</p>
-            <p><b>E-mail: </b>{{basic_info.email}}</p>
+            <h1 id="name">{{basic_info.name}}</br>{{basic_info.surname}}</h1>
+            <div id="contact">
+                <p><b>Data urodzenia: </b></br>ur. {{basic_info.date_of_birth}}</p>
+                <p><b>Telefon: </b></br>{{basic_info.telephone}}</p>
+                <p><b>E-mail: </b></br>{{basic_info.email}}</p>
+            </div>
         </header>
 
         <div class="container" id="education">
             <h2>Wykształcenie</h2>
             {% for item in education %}
             <div class="item">
-                <h3>{{item.place}}</h3>
                 <h4>{{item.date_start}} - {% if item.date_end %}{{item.date_end}}{% else %}...{% endif %}</h4>
+                <h3>{{item.place}}</h3>
                 <p>{{item.additional_info}}</p>
             </div>
             {% endfor %}
@@ -27,8 +29,8 @@
             <h2>Doświadczenie</h2>
             {% for item in experience %}
             <div class="item">
-                <h3>{{item.place}}</h3>
                 <h4>{{item.date_start}} - {% if item.date_end %}{{item.date_end}}{% else %}...{% endif %}</h4>
+                <h3>{{item.place}}</h3>
                 <p>{{item.additional_info}}</p>
             </div>
             {% endfor %}
